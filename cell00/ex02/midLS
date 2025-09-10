@@ -1,2 +1,3 @@
+#out put all files in the current directory in a single line, separated by commas
 #!/bin/bash
-ls -m
+ls -A | tr '\n' ',' | sed 's/,$/\n/'
