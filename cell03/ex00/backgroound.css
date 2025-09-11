@@ -1,0 +1,27 @@
+body {
+  transition: background-color 0.5s ease;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#colorChangeBtn {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  background-color: white;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+#colorChangeBtn:active {
+  transform: scale(0.95);
+}
