@@ -1,0 +1,50 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    color: #777;
+}
+
+.parallax-section {
+    position: relative;
+    opacity: 0.8;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image1 {
+    background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa');
+    min-height: 100%;
+}
+
+.image2 {
+    background-image: url('https://images.unsplash.com/photo-1534796636912-3b95b3ab5986');
+    min-height: 400px;
+}
+
+.content-section {
+    text-align: center;
+    padding: 50px 80px;
+    background-color: black;
+    color: white;
+}
+
+.message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.message span {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
