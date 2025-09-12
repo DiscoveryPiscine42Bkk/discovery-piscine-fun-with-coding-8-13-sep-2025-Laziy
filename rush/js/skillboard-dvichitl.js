@@ -90,7 +90,7 @@ const tools = [
 },
 {
   name: "Jquery",
-  icon: "img/logo/jquery.png",
+  icon: "img/logo/jquery.svg",
   description: "JavaScript Library",
   level: 40,
 },
